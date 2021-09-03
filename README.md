@@ -17,5 +17,7 @@ This repo contains: <br>
 | P1D5_MPT_V1.py | MANTIS Phase 1, D5, Mission Playback Tool (MPT) |
 
 # P1D5_MPT_V1.py 
-![Image of P1D5_MPT_V1.py screen shot ](https://github.com/AirspeedCode/mantis-D5/blob/main/images/D5 Mission Playback Tool.png)
+![Image of P1D5_MPT_V1.py screen shot ](https://github.com/AirspeedCode/mantis-D5/blob/master/images/D5%20Mission%20Playback%20Tool.png){:height="25%" width="25%"}
+
+
 
