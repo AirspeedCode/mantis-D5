@@ -1,0 +1,15 @@
+IMAGE DATA
+==========
+
+Image top left coordinates: -0.472412109375 52.01193653675362
+Image bottom right coordinates: -0.439453125 51.984880139916626
+Image width (px): 1536
+Image height (px): 2048
+Image width (m): 2255.7186879104743
+Image heiht (m): 3008.534061556077
+X scaling factor (m/px): 1.4685668541083816
+Y scaling factor (m/px): 1.4690107722441783
+Image width (deg): 0.032958984375
+Image height (deg): 0.02705639683699701
+X scaling factor (deg/px): 2.1457672119140625e-05
+Y scaling factor (deg/px): 1.3211131268064946e-05

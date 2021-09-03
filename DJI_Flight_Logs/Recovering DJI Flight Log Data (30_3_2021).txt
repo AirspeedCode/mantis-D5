@@ -1,0 +1,75 @@
+Instructions for recovering DJI flight logs:
+Ben Cook - 25/02/2021
+============================================
+
+Raw flight logs are stored on the android device connected to the DJI transmitter.
+When connecting the android device to PC ensure that the permissions are set on the device to transfer files.
+
+They can be found in this directory on he device:
+
+\Internal storage\DJI\dji.pilot\FlightRecord\
+
+The format of the file name is as follows:
+
+DJIFlightRecord_2020-12-08_[15-35-17].txt
+
+The files are saved in a compressed format to are unintelliigable to humans. However, they can be converted into a more useful format using the tool on this web page:
+
+https://www.phantomhelp.com/logviewer/upload/
+
+locate and upload the raw flight log file. Wait a few moments for the tool to convert it. data is then displayed on a web page, which you can share by sending the URL of others.
+
+This data can be downloaded as either a KML file format (for viewing track data in Google Earth etc), or as a CSV file for analysis.
+Recommend downloading the Verbose CSV file, by hitting 'Download Verbose CSV'.
+This then sends a zip file to your downloads area:
+
+DJIFlightRecord_2019-12-17_[15-43-22]csv-verbose.zip
+
+this contains the following file:
+
+DJIFlightRecord_2019-12-17_[15-43-22]-TxtLogToCsv.csv
+
+This file can be opened in MS Excel, etc.
+
+Useful data can be found in the following columns:
+
+OSD.latitude		(Col M)		Latitude of drone position
+OSD.longitude		(Col N)		Longitude of drone position
+
+HOME.latitude		(Col GF)	Latitude of launch position (fixed)
+HOME.longitude		(Col GG)	Longitude of launch position (fixed)
+
+OSD.flyTime [s] 	(Col BH) 	Elapsed time in seconds (to 0.1 s accuracy)
+
+CUSTOM.updateTime 	(Col A)		UTC Timestamp - decimal floating point number of days since  1 January 1900, 00:00:00 (UTC time), to ms resolution
+
+OSD.height [m] 		(Col O)		Col Height above Ground Level (AGL) in m, with reference to launch point altitude
+
+OSD.groundOrSky 	(Col AB)	Binary flag indicating whether the drone is on the ground, or is airborne ('Ground' or 'Sky')
+
+Further reading:
+Details on coputing time epochs here:
+https://en.wikipedia.org/wiki/Epoch_(computing)
+
+LITCHI FLIGHT LOGS
+==================
+
+Stored in: \Internal storage\LitchiApp\flightlogs
+As CSV file format in uncompressed file format
+
+Useful data can be found in the following columns:
+
+latitude		(Col A)		Latitude of drone position
+longitude		(Col B)		Longitude of drone position
+altitude(m)		(Col C)		Col Height above Ground Level (AGL) in m, with reference to launch point altitude
+distance(m)		(Col F)		Distance from Home (m)
+
+home_latitude		(Col R)		Latitude of launch position (fixed)
+home_longitude		(Col S)		Longitude of launch position (fixed)
+
+time(millisecond)	(Col K)  	Elapsed time in milliseconds 
+
+timestamp	 	(Col AR)        UTC Timestamp - decimal integer number of milliseconds since  1 January 1900, 00:00:00 (UTC time), to ms resolution
+
+
+
