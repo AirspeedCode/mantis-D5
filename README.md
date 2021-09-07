@@ -19,7 +19,7 @@ This repo contains: <br>
 
 # P1D5_MPT_V1.py 
 
-<img src="https://github.com/AirspeedCode/mantis-D5/blob/master/images/D5%20Mission%20Playback%20Tool.png" width="25%" height="25%">
+<img src="https://github.com/AirspeedCode/mantis-D5/blob/master/images/D5%20Mission%20Playback%20Tool.png" width="400" height="225">
 <br>
 
 ![Image of P1D5_MPT_V1.py screen shot ](https://github.com/AirspeedCode/mantis-D5/blob/master/images/D5%20Mission%20Playback%20Tool.png){:height="25%" width="25%"})
