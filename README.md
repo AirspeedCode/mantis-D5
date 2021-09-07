@@ -19,12 +19,9 @@ This repo contains: <br>
 
 # P1D5_MPT_V1.py 
 
-<img src="https://github.com/AirspeedCode/mantis-D5/blob/master/images/D5%20Mission%20Playback%20Tool.png" width="1000" height="562">
-<br>
+<img src="https://github.com/AirspeedCode/mantis-D5/blob/master/images/D5%20Mission%20Playback%20Tool.png" width="1000" height="562"><br>
 
-![Image of P1D5_MPT_V1.py screen shot ](https://github.com/AirspeedCode/mantis-D5/blob/master/images/D5%20Mission%20Playback%20Tool.png){:height="25%" width="25%"})
 
-<br>
 # D5_Mission_Diagnostics.ipynb
 <br>
 This Jupyter Notebook is used to generate diagnostic charts by comparing the Drone Flight Log file with the Mote Data Log file.<br>
@@ -37,7 +34,7 @@ This Jupyter Notebook is used to generate diagnostic charts by comparing the Dro
 Chart Images are saved in the '.\images' folder
 <br>
 
-![Predicted Bearing to Target ](https://github.com/AirspeedCode/mantis-D5/blob/master/images/1631028754780_P1D4T8F4_BTT_Pred_Under_200m.png){:height="25%" width="25%"})<br>
-![Range vs Prediction Error ](https://github.com/AirspeedCode/mantis-D5/blob/master/images/1631028757817_P1D4T8F4_RNG_Vs_Err.png){:height="25%" width="25%"})<br>
-![Bearing Predicton Error Distribution ](https://github.com/AirspeedCode/mantis-D5/blob/master/images/1631028761216_P1D4T8F4_Err_Dist_under_200m.png){:height="25%" width="25%"}<br>
+<img src="https://github.com/AirspeedCode/mantis-D5/blob/master/images/1631028754780_P1D4T8F4_BTT_Pred_Under_200m.png" width="1000" height="562"><br>
+<img src="https://github.com/AirspeedCode/mantis-D5/blob/master/images/1631028757817_P1D4T8F4_RNG_Vs_Err.png" width="1000" height="562"><br>
+<img src="https://github.com/AirspeedCode/mantis-D5/blob/master/images/1631028761216_P1D4T8F4_Err_Dist_under_200m.png" width="1000" height="562"><br>
 
